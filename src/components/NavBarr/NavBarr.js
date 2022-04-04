@@ -7,7 +7,7 @@ const NavBar = () => {
     <Navbar bg="light" expand="lg">
       <Container fluid>
         <Navbar.Brand href="# " className="fw-bold ms-3">
-          BK Laptop{" "}
+          BK Laptops{" "}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
