@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Maria Kern",
+        "review": "I was a bit weary because there were no reviews for this laptop when I bought it. This laptop is truly impressive! It feels like a very nice metal and has a good weight to it. Very good quality feel too it.",
+        "img": "./r-img/r1.jpg",
+        "rating": 3
+    },
+    {
+        "id": 2,
+        "name": "Allan Auld",
+        "review": " It performs nice and zippy and is half the cost of other brand names. The keyboard is very nice and the overall build of this laptop is very smooth. The screen is nice and vivid. The only thing I can’t seem to figure out how to work is the “backlit keyboard” though. There is no button to turn it on and no setting in",
+        "img": "./r-img/r2.jpg",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Miyelis",
+        "review": "No charger was included with the computer, and the instructions are very clear that we can only use a Coolby charger--none of which are available on Amazon. Honestly, this is ridiculous. I have tried to contact the seller, but have had no response. In their literature.",
+        "img": "./r-img/r3.jpeg",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "name": "Terrance Lee",
+        "review": "The company provided no means of contacting them directly via phone or email. This is a shocking lack of customer service! I have a dead, unchargeable computer and nowhere to go. I have never experienced such poor quality of product or services via Amazon to date. Do not purchase from this company.",
+        "img": "./r-img/r4.jpg",
+        "rating": 3
+    },
+    {
+        "id": 5,
+        "name": "Keith L. Tripp",
+        "review": "So far this laptop is great! Great price and its pretty fast. I just needed a thinner laptop for future nursing school and it seems to be able to handle multiple tabs open plus Microsoft word ope which is just what I needed. ",
+        "img": "./r-img/r5.jpg",
+        "rating": 4
+    },
+    {
+        "id": 6,
+        "name": "Elijah puryear",
+        "review": " Ive been reading reviews about the charger being missing. It is so light weight you may have missed it!! Its on the other end of the box a secret compartment! So make sure to check that first before rating! I could see how it might have been easily thrown away with the rest of the packaging.",
+        "img": "./r-img/r6.jpg",
+        "rating": 5
+    }
+]
