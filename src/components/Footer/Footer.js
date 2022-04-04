@@ -3,10 +3,10 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1 className="">
+    <div className="footer">
+      <h5 className="">
         <small>© 2045 All Rights Reserved. Design By bkhadiza40</small>
-      </h1>
+      </h5>
     </div>
   );
 };

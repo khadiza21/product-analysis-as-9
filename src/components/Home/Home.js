@@ -6,8 +6,8 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
-        <Header></Header>
-      
+      <Header></Header>
+
       <Footer></Footer>
     </div>
   );
