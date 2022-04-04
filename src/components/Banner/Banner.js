@@ -13,7 +13,7 @@ const Banner = () => {
           className="d-flex justify-content-center my-3 align-items-center "
         >
           <div className="px-2  text-justify">
-            <h1 className="my-2 ">BK laptop </h1>
+            <h1 className="my-2 ban-t">BK laptop </h1>
 
             <h5 className="mt-3">
               We collaborate with you to create new value through digital

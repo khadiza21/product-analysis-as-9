@@ -10,10 +10,12 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Blogs from "./components/Blogs/Blogs";
 import About from "./components/About/About";
 
+
 function App() {
   return (
     <div>
       <NavBarr></NavBarr>
+    
 
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
