@@ -9,11 +9,7 @@ const Reviews = () => {
   return (
     <div>
       <h1>review {reviews.length}</h1>
-      {/* "id": 
-        "name": 
-        "review": 
-        "img": 
-        "rating": */}
+   
       
       {reviews.map((review) => (
         <Review key={review.id} review={review}></Review>
