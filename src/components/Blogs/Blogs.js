@@ -6,9 +6,9 @@ import "./Blogs.css";
 const Blogs = () => {
   return (
     <div>
-      <h1 className="text-center my-9 py-7 text-2xl font-bold">MY BLOGS</h1>
+      <h1 className="text-center my-5 pt-5 fw-bold">MY BLOGS</h1>
 
-      <Accordion className="container" defaultActiveKey="0">
+      <Accordion className="container my-5 py-3 shadow rounded" defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Accordion Item #1</Accordion.Header>
           <Accordion.Body>

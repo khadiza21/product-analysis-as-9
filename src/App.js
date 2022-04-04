@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header/Header";
-// import Footer from "./components/Footer/Footer";
+
+import NavBarr from "./components/NavBarr/NavBarr.js";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Notfound from "./components/Notfound/Notfound";
@@ -13,8 +13,8 @@ import About from "./components/About/About";
 function App() {
   return (
     <div>
-      <Header></Header>
-      
+      <NavBarr></NavBarr>
+
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
@@ -24,9 +24,6 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
-      
-   
-
     </div>
   );
 }
