@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { LightSpeed } from "react-reveal";
 import aboutimg from "../../image/laptop.PNG";
 import "./About.css";
 const About = () => {
@@ -7,12 +8,14 @@ const About = () => {
     <div>
       <div className="banner-about d-flex justify-content-center align-items-center">
         <div className="text-center fs-5 px-3">
-          <h1 className="fw-bold mb-4">WE CREATE <span className="aw">AWESOME</span> ANALYSIS</h1>
+          <LightSpeed left>
+          <h1 className="fw-bold mb-4">WE CREATE <span className="aw">AWESOME</span> ANALYSIS</h1></LightSpeed>
+          <LightSpeed right>
           <p className="fw-bold fs-5">
             We collaborate with you to create new value through digital
             transformation. <br /> We have hundreds of specialists at your
             service.
-          </p>
+          </p></LightSpeed>
         </div>
       </div>
       <div className="mt-5 pt-5">

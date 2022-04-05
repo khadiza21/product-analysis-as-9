@@ -5,6 +5,7 @@ import {
   Form
   
 } from "react-bootstrap";
+import { Bounce } from "react-reveal";
 import "./Contact.css";
 
 const Contact = () => {
@@ -13,14 +14,16 @@ const Contact = () => {
     
       <div className="d-flex justify-items-center align-items-center">
         <Form className="container my-5 py-5 w-75">
+          <Bounce left>
           <h3>
             Have A Question About A Product, Our Company, Or Just Want To Chat?
             Email Us!
-          </h3>
+          </h3></Bounce>
+          <Bounce right>
           <p style={{ color: "gray" }} className="fw-bold my-4">
             We will be glad to assist you in any question and encourage you to
             share your ideas and improvements with us.
-          </p>
+          </p></Bounce>
           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label className="fw-bold">Name</Form.Label>
             <Form.Control type="text" placeholder="Name" />

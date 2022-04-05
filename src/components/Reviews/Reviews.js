@@ -8,7 +8,9 @@ const Reviews = () => {
 
   return (
     <div className=" container reviews-container my-5 pb-5">
+
       {reviews.map((review) => (
+    
         <Review key={review.id} review={review}></Review>
       ))}
     </div>

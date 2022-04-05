@@ -1,12 +1,14 @@
 import React from "react";
 import { Accordion } from "react-bootstrap";
+import { Bounce } from "react-reveal";
 import "./Blogs.css";
 
 const Blogs = () => {
   return (
     <div>
+      <Bounce top>
       <h2 className=" b-text text-center mt-5  pt-5 fw-bold">OURS BLOGS</h2>
-
+</Bounce>
       <Accordion className="container my-3 py-2 " defaultActiveKey="0">
         <Accordion.Item eventKey="0" className=" border-0 shadow rounded my-4">
           <Accordion.Header>
