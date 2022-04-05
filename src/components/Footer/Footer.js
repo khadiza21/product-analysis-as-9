@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-reveal";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,11 +11,17 @@ const Footer = () => {
         <i class="fa-brands fa-instagram-square"></i>
       </div>
       <div>
-        <h5>Terms Info Privacy</h5>
-        <h5>Support Contact Policy</h5>
+        <Slide top>
+          <h5>Terms Info Privacy</h5>
+        </Slide>
+        <Slide bottom>
+          <h5>Support Contact Policy</h5>
+        </Slide>
 
         <p className="">
-          <small>© 2022 All Rights Reserved. Design By bkhadiza40</small>
+          <Slide top>
+            <small>© 2022 All Rights Reserved. Design By bkhadiza40</small>
+          </Slide>
         </p>
       </div>
     </div>

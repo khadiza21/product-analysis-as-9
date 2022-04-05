@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { Bounce, Flip } from "react-reveal";
+import { Bounce, Fade, Flip } from "react-reveal";
 import laptop from "../../image/laptop.jpg";
 import "./Banner.css";
 
@@ -15,13 +15,14 @@ const Banner = () => {
         >
           <div className="px-2  text-justify">
             <Flip top>
-            <h1 className="my-2 ban-t">BK laptop </h1>
-</Flip>
-<Bounce left>
-            <h5 className="mt-3">
-              We collaborate with you to create new value through digital
-              transformation. We have hundreds of specialists at your service.
-            </h5></Bounce>
+              <h1 className="my-2 ban-t">BK laptop </h1>
+            </Flip>
+            <Fade bottom>
+              <h5 className="mt-3">
+                We collaborate with you to create new value through digital
+                transformation. We have hundreds of specialists at your service.
+              </h5>
+            </Fade>
             <Button className="btn my-3 fw-bold" variant="btn">
               LIVE DEMO
             </Button>

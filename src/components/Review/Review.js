@@ -10,11 +10,11 @@ const Review = (props) => {
     <div className="container mt-3 pt-3 py-4 rounded shadow text-justify px-4">
       <div className="d-flex">
         <img className="img-r " src={img} alt="" />
-        <Zoom>
+        <Fade top>
           <h3 className="ps-3 mt-2 fw-bold"> {name}</h3>
-        </Zoom>
+        </Fade>
       </div>
-      <Fade>
+      <Fade bottom>
         <p className="my-3 ">
           {" "}
           <span className="fw-bold">Review: </span>{" "}

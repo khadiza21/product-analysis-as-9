@@ -60,7 +60,7 @@ const Dashboard = () => {
   return (
     <div className="container my-5">
       <div className="my-3 py-2 ">
-        <Fade left>
+        <Fade top>
         <h3 className="chart-text text-center mt-3 fw-bold py-3">
           MONTH WISE SELL
         </h3></Fade>
@@ -93,7 +93,7 @@ const Dashboard = () => {
       </div>
 
       <div className="my-3  py-5 ">
-        <Fade right>
+        <Fade bottom>
         <h3 className="chart-text text-center mt-3 fw-bold py-3">
           Investment VS Revenue
         </h3></Fade>
@@ -142,7 +142,7 @@ const Dashboard = () => {
       </div>
 
       <div className="my-3 py-5 ">
-        <Fade left>
+        <Fade top>
         <h3 className="chart-text text-center fw-bold my-3 py-4">
           Investment VS Revenue
         </h3></Fade>
@@ -165,7 +165,7 @@ const Dashboard = () => {
       </div>
 
       <div className="my-3 py-5 ">
-        <Fade right>
+        <Fade bottom>
         <h3 className="chart-text text-center my-3 py-4 fw-bold">
           Investment VS Revenue
         </h3></Fade>

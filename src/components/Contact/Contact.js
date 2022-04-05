@@ -1,29 +1,25 @@
 import React from "react";
-import {
-  Button,
-  FloatingLabel,
-  Form
-  
-} from "react-bootstrap";
-import { Bounce } from "react-reveal";
+import { Button, FloatingLabel, Form } from "react-bootstrap";
+import { Bounce, Fade } from "react-reveal";
 import "./Contact.css";
 
 const Contact = () => {
   return (
     <div>
-    
       <div className="d-flex justify-items-center align-items-center">
         <Form className="container my-5 py-5 w-75">
-          <Bounce left>
-          <h3>
-            Have A Question About A Product, Our Company, Or Just Want To Chat?
-            Email Us!
-          </h3></Bounce>
-          <Bounce right>
-          <p style={{ color: "gray" }} className="fw-bold my-4">
-            We will be glad to assist you in any question and encourage you to
-            share your ideas and improvements with us.
-          </p></Bounce>
+          <Bounce top>
+            <h3>
+              Have A Question About A Product, Our Company, Or Just Want To
+              Chat? Email Us!
+            </h3>
+          </Bounce>
+          <Bounce bottom>
+            <p style={{ color: "gray" }} className="fw-bold my-4">
+              We will be glad to assist you in any question and encourage you to
+              share your ideas and improvements with us.
+            </p>
+          </Bounce>
           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label className="fw-bold">Name</Form.Label>
             <Form.Control type="text" placeholder="Name" />
@@ -55,27 +51,32 @@ const Contact = () => {
         </Form>
       </div>
 
-
       <div className="container contact-container mb-5 pb-5">
-           <div className="shadow rounded p-3 text-center py-5 contact-info">
+        <div className="shadow rounded p-3 text-center py-5 contact-info">
+          <Fade top>
             <h4 className="fw-bold"> CUSTOMER SERVICE</h4>
-            <h5 className="mt-3"> +09123 456 789</h5>
-            <p>Monday to Friday</p>
-            <p>10am - 6.30pm (NewYork time)</p>
-          </div>
-          
-          <div  className="shadow rounded p-3 text-center py-5 contact-info">
-              <h4 className="fw-bold">PRODUCTS & ORDERS</h4>
-            <h5 className="mt-3"> +09123 456 789</h5>
-            <p>Monday to Friday</p>
-            <p>10am - 6.30pm (NewYork time)</p>
-          </div>
-          
-         <div  className="shadow rounded p-3 text-center py-5 contact-info">
-           <h4 className="fw-bold">STORE LOCATOR</h4>
-            <p className="mt-3">521 Fifth Avenue, Pelham, NY 10783</p>  
-         </div>
-     </div>
+          </Fade>
+          <h5 className="mt-3"> +09123 456 789</h5>
+          <p>Monday to Friday</p>
+          <p>10am - 6.30pm (NewYork time)</p>
+        </div>
+
+        <div className="shadow rounded p-3 text-center py-5 contact-info">
+          <Fade bottom>
+            <h4 className="fw-bold">PRODUCTS & ORDERS</h4>
+          </Fade>
+          <h5 className="mt-3"> +09123 456 789</h5>
+          <p>Monday to Friday</p>
+          <p>10am - 6.30pm (NewYork time)</p>
+        </div>
+
+        <div className="shadow rounded p-3 text-center py-5 contact-info">
+          <Fade top>
+            <h4 className="fw-bold">STORE LOCATOR</h4>
+          </Fade>
+          <p className="mt-3">521 Fifth Avenue, Pelham, NY 10783</p>
+        </div>
+      </div>
     </div>
   );
 };

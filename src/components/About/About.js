@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { LightSpeed } from "react-reveal";
+import { Fade, LightSpeed } from "react-reveal";
 import aboutimg from "../../image/laptop.PNG";
 import "./About.css";
 const About = () => {
@@ -9,13 +9,17 @@ const About = () => {
       <div className="banner-about d-flex justify-content-center align-items-center">
         <div className="text-center fs-5 px-3">
           <LightSpeed left>
-          <h1 className="fw-bold mb-4">WE CREATE <span className="aw">AWESOME</span> ANALYSIS</h1></LightSpeed>
+            <h1 className="fw-bold mb-4">
+              WE CREATE <span className="aw">AWESOME</span> ANALYSIS
+            </h1>
+          </LightSpeed>
           <LightSpeed right>
-          <p className="fw-bold fs-5">
-            We collaborate with you to create new value through digital
-            transformation. <br /> We have hundreds of specialists at your
-            service.
-          </p></LightSpeed>
+            <p className="fw-bold fs-5">
+              We collaborate with you to create new value through digital
+              transformation. <br /> We have hundreds of specialists at your
+              service.
+            </p>
+          </LightSpeed>
         </div>
       </div>
       <div className="mt-5 pt-5">
@@ -24,13 +28,16 @@ const About = () => {
             <Col xs={12} md={6} className="my-3 side">
               <div className="px-2  text-justify side-1 m-5 d-flex justify-content-center  align-items-center">
                 <div className="px-3">
-                  <h3 className="my-2 fs-1 fw-bold">Laptop Perfection </h3>
-
-                  <p className="mt-3 fw-bold">
-                    We’re a small creative design studio based in New York,
-                    working with adventurous clients and providing Creative
-                    Concept.
-                  </p>
+                  <Fade bottom>
+                    <h3 className="my-2 fs-1 fw-bold">Laptop Perfection </h3>
+                  </Fade>
+                  <Fade top>
+                    <p className="mt-3 fw-bold">
+                      We’re a small creative design studio based in New York,
+                      working with adventurous clients and providing Creative
+                      Concept.
+                    </p>
+                  </Fade>
                   <Button className="btn my-3 fw-bold" variant="btn">
                     LEARN MORE
                   </Button>
@@ -44,11 +51,14 @@ const About = () => {
               className="d-flex justify-content-center my-3 align-items-center side-2"
             >
               <div className="px-2  text-justify">
-                <h3 className="my-2 fs-2 fw-bold">Sample Headline </h3>
-
-                <p className="mt-3">
-                  We’re a small creative design studio based in New York
-                </p>
+                <Fade top>
+                  <h3 className="my-2 fs-2 fw-bold">Sample Headline </h3>
+                </Fade>
+                <Fade bottom>
+                  <p className="mt-3">
+                    We’re a small creative design studio based in New York
+                  </p>
+                </Fade>
                 <Button className="btn my-3 fw-bold" variant="btn">
                   LEARN MORE
                 </Button>
@@ -73,15 +83,18 @@ const About = () => {
               className="d-flex justify-content-center my-3 align-items-center "
             >
               <div className="px-4  text-justify">
-                <h3 className="my-2 fs-2 fw-bold pb-3 ">AWESOME FEATURES </h3>
-
-                <p className="mt-3">
-                  No charger was included with the computer, and the
-                  instructions are very clear that we can only use a Coolby
-                  charger--none of which are available on Amazon. Honestly, this
-                  is ridiculous. I have tried to contact the seller, but have
-                  had no response. In their literature.
-                </p>
+                <Fade top>
+                  <h3 className="my-2 fs-2 fw-bold pb-3 ">AWESOME FEATURES </h3>
+                </Fade>
+                <Fade bottom>
+                  <p className="mt-3">
+                    No charger was included with the computer, and the
+                    instructions are very clear that we can only use a Coolby
+                    charger--none of which are available on Amazon. Honestly,
+                    this is ridiculous. I have tried to contact the seller, but
+                    have had no response. In their literature.
+                  </p>
+                </Fade>
                 <Button className="btn my-3  fw-bold" variant="btn">
                   LIVE DEMO
                 </Button>
