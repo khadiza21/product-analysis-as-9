@@ -2,17 +2,15 @@ import React from "react";
 import ReactStars from "react-rating-stars-component";
 
 const Review = (props) => {
-  const { id, name, rating } = props.review;
-
+  const { name, rating, review } = props.review;
+  // , img
   return (
     <div>
-      {/* "id": 
-        "name": 
-        "": review
-        "img": 
-        // "": */}
-      <h1>id: {id}</h1>
-      <h2>Name: {name}</h2>
+      <p>
+        Name: {name}
+        Review: {review}
+      </p>
+
       <span>
         Ratings:
         <ReactStars count={5} value={rating} size={26} activeColor="#ffd700" />

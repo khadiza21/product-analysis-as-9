@@ -4,13 +4,10 @@ import Review from "../Review/Review";
 import "./Reviews.css";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useProducts();
+  const [reviews] = useProducts();
 
   return (
-    <div>
-      <h1>review {reviews.length}</h1>
-   
-      
+    <div className=" container reviews-container">
       {reviews.map((review) => (
         <Review key={review.id} review={review}></Review>
       ))}
