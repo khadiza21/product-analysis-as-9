@@ -8,7 +8,9 @@ const Main = () => {
   const [reviews] = useProducts();
   return (
     <div className="my-5 container">
-      <h1 className="text-center">Customer Review (3)</h1>
+      <h1 className="text-center py-4 fw-bold">
+        Customer <span className="sp">Review (3)</span>
+      </h1>
 
       <div className=" reviews-container">
         {reviews.slice(0, 3).map((review) => (
@@ -16,7 +18,7 @@ const Main = () => {
         ))}
       </div>
 
-      <div className="text-center text-light">
+      <div className="text-center text-light my-5 pb-5">
         <CustomLink className="btn my-3 fw-bold" variant="btn" to="/reviews">
           SEE ALL REVIEWS
         </CustomLink>
