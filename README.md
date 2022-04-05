@@ -11,3 +11,5 @@
 - This project is made by Mainly routing , react and another use here html and React and JS. Routing is like path that can help to visit us one part to another part without reloading page and react is a framework of JS.It's makes programmer life easy.
 
 - In this website buyer can take laptop and get services  about laptop and they can repair their laptop . 
+
+- Here User can see other persons reviews and also can read some blogs. Viewer get contact info and can know to about us.

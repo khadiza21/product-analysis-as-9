@@ -7,9 +7,9 @@ function CustomLink({ children, to, ...props }) {
     let match = useMatch({ path: resolved.pathname, end: true });
   
     return (
-      <div className='mx-5'>
-        <Link
-          style={{color: match ? "red":"black", textDecoration: match ? "underline" : "none" }}
+      <div className='mx-4'>
+        <Link className='fw-bold'
+          style={{color: match ? "#f15735":"black", textDecoration: match ? "underline" : "none" }}
           to={to}
           {...props}
         >
