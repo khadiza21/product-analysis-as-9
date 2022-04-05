@@ -7,12 +7,12 @@ import "./Main.css";
 const Main = () => {
   const [reviews] = useProducts();
   return (
-    <div className="my-5 container">
-      <h1 className="text-center py-4 fw-bold">
+    <div className="my-5 container py-3">
+      <h1 className="text-center py-4 fw-bold mt-5">
         Customer <span className="sp">Review (3)</span>
       </h1>
 
-      <div className=" reviews-container">
+      <div className=" reviews-container ">
         {reviews.slice(0, 3).map((review) => (
           <Review key={review.id} review={review}></Review>
         ))}

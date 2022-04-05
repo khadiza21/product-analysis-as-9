@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import CustomLink from "../CustomLink/CustomLink";
+import './Navbar.css';
 
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="# " className="fw-bold ms-3">
-          BK Laptops{" "}
+        <Navbar.Brand href="# " className="fw-bold ms-4 fs-3">
+          <span className="bk">BK </span><span className="lap">Laptops</span>
+          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
