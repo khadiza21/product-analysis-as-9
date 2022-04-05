@@ -15,7 +15,6 @@ const About = () => {
           </p>
         </div>
       </div>
-
       <div className="mt-5 pt-5">
         <Container className="container my-5 py-3">
           <Row>

@@ -13,3 +13,6 @@
 - In this website buyer can take laptop and get services  about laptop and they can repair their laptop . 
 
 - Here User can see other persons reviews and also can read some blogs. Viewer get contact info and can know to about us.
+
+
+<img src="./src/image/w.png" alt="" />
