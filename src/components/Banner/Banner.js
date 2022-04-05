@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { Bounce, Fade, Flip } from "react-reveal";
+import {  Fade, Flip } from "react-reveal";
 import laptop from "../../image/laptop.jpg";
 import "./Banner.css";
 

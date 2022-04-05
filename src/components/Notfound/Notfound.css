@@ -1,19 +1,12 @@
 /* css code for not found routing */
-.notFound{
-    height: 1000px;
-    text-align: center;
-    padding-top: 400px;
-     background-color: rgb(214, 188, 72);
-     text-align: center;
-    
-    }
+
     .server{
-      color: rgb(238, 14, 33);
-      font-size: 60px;
-    font-weight: bolder;
+    color: #4f2083;
+    font-weight: bold;
+    font-size:4vw;
     }
     .not{
-     color: rgb(136, 193, 207);
-     font-size: 50px;
-     font-weight: bolder;
+     color: #f15735;
+     font-weight: bold;
+     font-size: 3vw;
     }
